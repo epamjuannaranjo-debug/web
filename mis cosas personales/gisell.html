@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros dos hijos.</title>
+    <link rel="stylesheet" href="juan.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="welcome-screen">
+        <div class="title-container">
+            <img src="" alt="" srcset="">
+            <h1 class="title">FELIZ CUMPLE AÑOS MI VIDA.</h1>
+        </div>
+    </div>
+
+    <main id="main-content">
+        <section class="intro">
+            <h2>FELIZ CUMPLEAÑOS MI VIDA.</h2>
+            <p>Hoy es un día igual a los otros días, pero la diferencia es que hoy estamos en el dia que tu pasaste 365 dias mas de tu vida que pasaste por un proseso de enseñansa propia (aunque un poquito tarde).</p>
+            <p>Yo como tu novio, tengo el deber y el placer de ser un pilar en tu vida, así como tú lo eres en la mía. Mi camino es claro y mi trabajo es constante, y tenerte a mi lado no es una distracción, es la confirmación de que voy en la dirección correcta. No estoy por detalles, tratos bonito o por estar con tigo (estar por estar), nosotros estamos aqui para construir algo más grande como un imperio y por eso es la importancia de progresar y más con la persona que escojimos para estos años o para la vida.</p>
+            <p>Lo que celebro hoy no es solo que cumples un año más. Celebro tu fortaleza, esa que no todos ven. Celebro tu inteligencia y tu lealtad, que son el ancla en mi vida. Eres mi compañera de guerra, mi aliada estratégica, la calma en medio de todo.</p>
+            <p>El valor que te tengo por lo que eres es tanto como cuando nos calentamos y no nos agauntamos ni vernos a la cara por el simple echo que se que me quieres ver arriba en lo mejor y gracias a eso que haces siento que estoy caminando por el mismo camino tuyo para estar en un objectivo en comun. Cada uno cuando puede ayudarle al otro con cosas muy significantes o muy poco significantes es aportarle al otro de una o de otra manera y no quiero que este texto sea solo cosas para que separ lo lindo que es algo de comprencion mutua (de reprosidad), hay que mejorar muchos aspectos pero principal mente tu tranquilidad y atencion a este mundo con migo.</p>
+            <h1>ti amo, mon amour.</h1>
+        </section>
+
+        <section class="ecosystem-grid">
+            
+            <div class="ecosystem-card" id="amazon">
+                <div class="image-container">
+                    <img src="Imagen de WhatsApp 2025-09-25 a las 17.16.07_77dd4106.jpg" alt="Nuestra esploción.">
+                    </div>
+                <h3>Nuestra exploción.</h3>
+                <p>En nuestro primer diciembre fue una experiencia que fue linda para nosotros. Fue una exploción de tranquilidad y combibencia con tu familia.</p>
+            </div>
+
+            <div class="ecosystem-card" id="coral">
+                <div class="image-container">
+                    <img src="Imagen de WhatsApp 2025-09-25 a las 17.17.18_3a581eb0.jpg" alt="tranquilidad.">
+                     </div>
+                <h3>Tranquilidad.</h3>
+                <p>El dia que fuimos a el 18 fue algo tan perfecto, es como si lo tuviera todo en ese momento; estube con mis papas, mi abuela y con el acompañamiento tuyo que fue una tranquilidad ver tu cara y tus besos que me llevaban al cielo. </p>
+            </div>
+
+            <div class="ecosystem-card" id="tundra">
+                <div class="image-container">
+                    <div class="fog-effect"></div>
+                    <img src="Imagen de WhatsApp 2025-09-25 a las 17.19.05_53309087.jpg" alt="tur.">
+                    </div>
+                <h3>Tur.</h3>
+                <p>Quiero darme un tur con tigo por todo el mundo, algun dia ir a otro pais y darnos un tur por toda la ciudad y sorprendiddos de todo y de nada a la ves pero con tigo para que me trates con cariño y me digas vamos para haya que se ve bonito, y tu emocionada de hacer todo con migo.</p>
+            </div>
+
+        </section>
+    </main>
+
+    <div id="modal-overlay" class="hidden">
+        <div id="modal-content">
+            <span id="close-button">&times;</span>
+            <h2>Ecosistema Detallado</h2>
+            <p>Aquí se mostrarían videos en alta definición, galerías de fotos y datos curiosos sobre el ecosistema seleccionado.</p>
+            </div>
+    </div>
+
+
+    <script>
+        // Este script es solo para la transición inicial.
+        // La funcionalidad de audio y modal se explica más abajo.
+        window.setTimeout(() => {
+            const welcomeScreen = document.getElementById('welcome-screen');
+            const mainContent = document.getElementById('main-content');
+            
+            welcomeScreen.style.opacity = '0';
+            mainContent.style.opacity = '1';
+            mainContent.style.transform = 'translateY(0)';
+
+            // Eliminar la pantalla de bienvenida después de la transición
+            window.setTimeout(() => {
+                welcomeScreen.style.display = 'none';
+            }, 1000);
+
+        }, 4000); // Duración de la animación de bienvenida (4 segundos)
+    </script>
+
+</body>
+</html>
